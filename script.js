@@ -16,21 +16,50 @@
 // let num = parseInt(prompt ("Enter second number";));
 
 
+//function declaration
+
+//function greet(name, gender, score){
+    //let nme2 = name
+    //console.log("Hello World!", name, gender, score)
+//}
+//greet('ife', 'male','5')
+//greet('sam', 'female', '12')
+
+//function returnSumOf2Numbers(num1, num2){
+   // let result = num1 + num2
+    //console.log(result)
+  //  return result;
+//}
+//returnSumOf2Numbers(3,4)
+
+//function expression
+//let SumOf3Numbers = function(num1, num2, num3) {
+   // let result = num1 + num2 + num3;
+   // console.log(result);
+//}
+
+//function takeInpuFromUser(){
+  //  let num = prompt('Enter Any Number')
+   // if (num > 6){
+   // console.log("number is Greater than 6")
+   // }
+   // else if(num < 6){
+       // console.log("number is lesser than 6")
+    //}
+//}
+//takeInpuFromUser();
 
 
+//function takeInpuFromUser(){
+ //   let name = prompt('Enter your Name')
+   // let result = name.length
+   // console.log(`your name has ${name.length} letters`)
+    //console.log('your name is' + name.length + 'long')
+//}
+//takeInpuFromUser();
 
-
-const num = parseInt(prompt ("Enter your result"));
-if (num <= 39) {
-    alert(`${num} is F`)
-}else if (num >39 && num <= 44) {
-    alert(`${num} is E`)
-}else if (num >44 && num <= 49) {
-    alert(`${num} is D`)
-}else if (num >50 && num  <= 59) {
-    alert(`${num} is C`)
-};
-
-
-
-
+function take4Parameters(num1, num2, num3, num4){
+    console.log(result)
+    let result = Math.math
+}
+take4Parameters();
