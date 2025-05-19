@@ -56,10 +56,46 @@
    // console.log(`your name has ${name.length} letters`)
     //console.log('your name is' + name.length + 'long')
 //}
-//takeInpuFromUser();
+//takeInpuFromUser(); 
 
-function take4Parameters(num1, num2, num3, num4){
-    console.log(result)
-    let result = Math.math
+//function take4Parameters(num1, num2, num3, num4){
+   // console.log(result)
+    //let result = Math.math
+//}
+//take4Parameters();
+
+//Write a function that checks if a number is even or odd
+//const CheckEvenOrOdd = function (a) {
+ // if (a % 2 === 0) {
+ //   alert (`${a} is an odd number`)
+  //} else if (a % 2 !=== 0) {
+   // alert (`${a} is an odd number`)
+// }
+//}
+//a = parseInt(prompt("Enter your number"))
+//CheckEvenOdd(a);
+
+
+//let divide = (num1,num2) => {
+  //console.log(num1/num2)
+//}
+//divide (10,5)
+
+//let checkLargest = (num1, num2, num3)=> {
+  //console.log (Math.max(num1, num2, num3))
+//}
+//checkLargest(20,34,100)
+
+
+//function word (result){
+  // result =result.split("").reverse().join("")
+ // console.log(result)
+//}
+//word("saidat");
+//word('wendy');
+
+function word (longest){
+  result = result.split("").length().join("")
+  console.log(result)
 }
-take4Parameters();
+word("she is a girl");
