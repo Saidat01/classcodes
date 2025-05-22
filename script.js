@@ -94,8 +94,24 @@
 //word("saidat");
 //word('wendy');
 
-function word (longest){
-  result = result.split("").length().join("")
-  console.log(result)
-}
-word("she is a girl");
+//function word (longest){
+  //result = result.split("").length().join("")
+  //console.log(result)
+//}
+//word("she is a girl");
+
+
+
+
+//console.log(document.getElementsByClassName('text'))
+// console.log(document.getElementsByClassName ('btn'))
+
+//let students = {
+ // name:"Saidat",
+ // nationality:"Nigeria",
+  //Status: "Greatest Of All Times",
+//};
+
+document.getElementById('header').innerText = 'I Haved been Changed'
+
+console.log(document.querySelectorAll('li')[3] .innerText = 'Garri')
