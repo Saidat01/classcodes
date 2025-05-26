@@ -112,6 +112,22 @@
   //Status: "Greatest Of All Times",
 //};
 
-document.getElementById('header').innerText = 'I Haved been Changed'
+//document.getElementById('header').innerText = 'I Haved been Changed'
 
-console.log(document.querySelectorAll('li')[3] .innerText = 'Garri')
+//console.log(document.querySelectorAll('li')[3] .innerText = 'Garri')
+let header = document.getElementById('header')
+header.style.color = "hotpink"
+header.style.backgroundColor = "blue"
+
+function change(){
+let openElement = document.getElementById('open');
+if (openElement.innerText ==="open"){
+  openElement.innerText = "close"}
+  else{
+    openElement.innerText ="open"
+  }
+}
+
+document.getElementById('open').addEventListener("click", change
+  
+)
